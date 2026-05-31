@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cmake ${CMAKE_ARGS} -DCMAKE_INSTALL_PREFIX=$PREFIX \
+cmake ${CMAKE_ARGS} \
       -DCMAKE_BUILD_TYPE=Release \
       -DCMAKE_PREFIX_PATH=$PREFIX \
       -DWITH_INCHI=ON \
